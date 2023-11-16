@@ -1,3 +1,4 @@
 hier<-function(){
-  return(Sys.Date()-1) 
+  yest <- Sys.Date()-1
+  return(yest)
 }
